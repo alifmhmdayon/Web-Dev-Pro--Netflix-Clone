@@ -1,0 +1,534 @@
+
+*{margin: 0;padding: 0;}
+
+body{background-color: black;}
+
+
+
+.navbar{
+    height:100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    z-index:1;
+   
+
+}
+
+.netflix-logo{
+    height:50px;
+    padding-right: 200px;
+  
+}
+
+.right{
+    display: flex;
+    gap:15px;
+    padding-left: 100px;
+   
+}
+.eng{
+    border:1px solid white;
+    padding:5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Archivo", sans-serif;
+    }
+
+    .eng:hover{
+        background-color: rgb(75, 74, 74);
+        cursor: pointer;
+    }
+
+.signin{
+  
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color:#e50914;
+    color:white;
+    font-weight:400;
+    font-family: "Archivo", sans-serif;
+
+}
+
+.signin:hover{
+        cursor: pointer;
+        background-color: rgb(111, 1, 1);
+
+    }
+
+   
+
+
+
+
+.bgimg{
+    height: 100vh;
+    width: 100%;
+   background-color: black;
+   opacity:.35;
+}
+
+.hero{
+    color: aliceblue;
+    position:relative;
+    top:-70vh;
+    text-align: center;
+    
+}
+.head{font-family: "Archivo", sans-serif;
+    font-size:3.5rem;
+    font-weight: 900;
+    line-height: 1.3;
+}
+.head2{
+    font-family: "Archivo", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 1.3rem;
+
+
+}
+.para{
+    font-weight: 400;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+   
+    position: relative;
+    top:-60vh;
+    gap:10px
+
+    
+}
+   
+
+.mailbox{
+    height:56px;
+    width:375px;
+    background-color: rgba(255, 255, 255, 0.078);
+    border-radius: 6px;
+    color: white;
+    padding-left: 15px;
+    border:1px solid white
+    
+    
+    
+}
+.started{
+    color: aliceblue;
+    font-family: "Archivo", sans-serif;
+    top:-60vh;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+    height: 43px;
+    width: 175px;
+    border-radius: 5px;
+    background-color: #e50914;
+}
+.started:hover{
+    background-color: #be0710;
+    cursor: pointer;
+}
+
+.trending{
+    font-size: 2rem;
+    font-family: "Archivo", sans-serif;
+}
+.imgs{
+    background-color:black;
+    height: 500px;
+    position: relative;
+    top:-65vh;
+    border-radius: 50% 50% 0% 0% / 10% 10% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+   
+    
+    
+}
+.row1{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  
+}
+.row2{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pic{
+ width:22% ;
+ 
+ 
+}
+.img-1{
+    width:100%;
+    border-radius:10px;
+    border: 2px solid white;
+
+}
+.middle{
+    color:white;
+   display: flex;
+   flex-direction: column;
+   gap:15px;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   
+   
+    
+}
+.trn{
+    display: flex;
+    gap:15px;
+}
+.Bd, .movies{
+    border:1px solid white;
+    padding:5px 10px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.Bd:hover{
+    background-color: rgba(249, 45, 45, 0.721);
+    cursor: pointer;
+}
+.movies:hover{
+    background-color: rgba(249, 45, 45, 0.721);
+    cursor: pointer;
+}
+.part3{
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap:50px;
+    position: relative;
+    top:-40vh;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.cards{display: flex;
+    gap:15px;
+    
+    
+    
+}
+.card{
+    border:1px solid white;
+    border-radius: 15px;
+    height:300px;
+    width:23%;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255, 149, 216, 0.187);
+    
+
+   
+}
+
+.cards p{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 30px;
+    font-family: "Archivo", sans-serif;
+    
+    
+}
+.part3 p{
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+.r{ 
+    font-size: 1.1rem;
+     color:rgb(151, 151, 151);
+     font-family: "Archivo", sans-serif;
+}
+
+.card:hover{
+    background-color: rgba(233, 10, 136, 0.436);
+    cursor: pointer;
+}
+.img-1:hover{
+    border:  2px solid rgba(236, 8, 8, 0.541);
+    cursor:pointer;
+}
+.part4{
+   color: white;
+   position: relative;
+   top:-100px;
+}
+.part4 p{
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-left: 245px;
+    padding-bottom: 20px;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.box{
+    background-color:#363535;
+    height: 72px;
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Archivo", sans-serif;
+}
+
+.box:hover{background-color: #bcbbbb88;cursor: pointer;}
+
+.one{
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+.two{
+    padding-right: 20px;
+    
+}
+
+.part5{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap:10px
+}
+
+.get{
+    color: aliceblue;
+    font-family: "Archivo", sans-serif;
+    
+    top:-60vh;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+    height: 42px;
+    width: 175px;
+    border-radius: 5px;
+    background-color: #e50914;
+    
+}
+
+.get:hover{
+    background-color: #be0710;
+    cursor: pointer;
+}
+.part6{
+    display: flex;
+    color:white;
+    gap:60px;
+    padding-top: 80px;
+   list-style: none;
+   margin-bottom: 200px;
+   font-family: "Archivo", sans-serif;
+}
+
+.part6:hover{
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width:800px){
+    
+    .navbar{
+        height:100px;
+    
+        
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        
+        }
+
+        .right{
+            display: flex;
+            gap:15px;
+            padding-right: 20px;
+            
+            }
+    
+     .netflix-logo{
+                height:30px;
+                padding-left:50px;
+                padding-right: 0px;}
+           
+                .head{
+                    font-family: "Archivo", sans-serif;
+                    font-size:1.5rem;
+                    font-weight: 900;
+                    line-height: 1.3;
+                }
+                .head2{
+                    font-family: "Archivo", sans-serif;
+                    padding-top: 20px;
+                    padding-bottom: 30px;
+                    font-weight: 600;
+                    font-size: 1rem;
+                
+                
+                }
+                .para{
+                    font-weight: 400;
+                    padding: 0 30px;
+                }
+
+                .mailbox{
+                    height:36px;
+                    width:175px;
+                     
+                    
+                }
+                .started{
+                    
+                    top:-60vh;
+                    font-size: 1rem;
+                   
+                    padding-top: 10px;
+                    height: 28px;
+                    width: 105px;
+                    
+
+
+
+}
+          .box{
+     
+    height: 32px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Archivo", sans-serif;
+}
+.boxs{position: relative;
+    top:390vh;
+    padding-bottom: 30px;
+}
+
+       .part6{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    position: relative;
+    top:350vh;
+    
+}
+.cards{display: flex;
+    flex-direction: column;
+    
+    
+}
+.card{
+   
+    height:300px;
+    width:90%;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255, 149, 216, 0.187);
+    
+
+   
+}
+.imgs{
+    top:130vh
+}
+.part3{
+    top:350vh;
+
+}
+
+.part3 p{padding-left: 35px;}
+.row1{flex-direction: column;}
+.row2{flex-direction: column;}
+.pic{
+    width:100% ;
+    
+    
+   }
+.part5{position: relative;
+    top:300vh;
+}
+.get{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 10px;
+    height: 29px;
+    width: 105px;
+}
+.part4 p{
+    position: relative;
+    top:390vh;
+    padding-left: 160px;
+}
+.card>p{padding-left: 5px;}
+
+}
+
+
+@media (max-width:450px){
+
+    .imgs{
+        top:40vh
+    }
+
+    .cards{display: flex;
+        flex-direction: column;
+        position: relative;
+        top:-190vh
+        
+    }
+    .card p{
+        padding-left: 10px;
+    }
+
+    .part5{position: relative;
+        top:130vh;
+    }
+    .part3>p{display: none;}
+    
+    .boxs{position: relative;
+        top:190vh;
+        padding-bottom: 30px;
+    }
+    .part4 p{
+        position: relative;
+        top:190vh;
+        padding-left: 100px;
+    }
+   .part6{
+    position: relative;
+    top:170vh;
+   }
+
+}
